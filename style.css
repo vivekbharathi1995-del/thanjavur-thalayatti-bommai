@@ -268,3 +268,20 @@ button:hover {
 .card:hover {
     transform: translateY(-8px);
 }
+.explore-btn {
+    display: inline-block;
+    background-color: #d4af37;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #8b0000;
+    transform: scale(1.05);
+}
